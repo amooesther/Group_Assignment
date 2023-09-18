@@ -7,27 +7,51 @@
     <link rel="stylesheet" href="./src/default.css">
     <link rel="stylesheet" href="./src/index.css">
 </head>
-<body><div>
-    <div>
-<img src="./Assets/Logo.svg">
-<h2 class="text-4xl font-bold">Explore the best camp on Earth.</h2>
-<p>Yelpcamp is a curated list of the best camping spot on Earth.
-    Unfiltered and Unbiased review</p>
-    <p class=""><img src="./Assets/Checkmark.svg"> Add your own camp suggestions</p>
-    <p class=""><img src="./Assets/Checkmark.svg"> Leave reviews and experiences</p>
-    <p class=""><img src="./Assets/Checkmark.svg"> See location for all camps</p>
-    <button>View campgrounds</button>
-
-    <p>Partnered with:</p>
-    <img src="./Assets/Airbnb.svg" alt="#">
-    <img src="./Assets/Booking.svg" alt="#">
-    <img src="./Assets/Plum Guide.svg" alt="">
-
+<body>
+    <div class="h-screen flex lg:flex-row flex-col justify-between ">
+        <div class="lg:basis-1/2 lg:flex-1 lg:ml-28 lg:mr-12 lg:mt-9">
+            <div class="pb-12 lg:w-full lg:mt-4 m-6">
+                <img src="./Assets/Logo.svg">
+            </div>
+            <div class="lg:hidden">
+                <img class="w-full h-80" src="./Assets/Hero Image.jpg" alt="#">
+            </div>
+            <div class="lg:mt-4 lg:w-full m-5">
+                <div>
+                    <h1 class="lg:text-6xl md:text-5xl text-4xl font-bold">Explore the best camps on Earth.</h1>
+                    <p class="mt-4  text-base font-medium pb-4">Yelpcamp is a curated list of the best camping spot on Earth.Unfiltered and Unbiased review</p>
+                    <div class="flex flex-col space-y-2">
+                        <div class="inline-flex ">
+                            <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-base font-medium">Add your own camp suggestions</span>
+                            
+                         </div>
+                         <div class="inline-flex">
+                             <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-base font-medium">Leave reviews and experiences</span>
+                         </div>
+                         <div class="inline-flex">
+                             <img class="w-6 h-6 mr-2" src="./Assets/Checkmark.svg"> <span class="text-base font-medium">See location for all camps</span>
+                         </div>
+                    </div>
+                    
+                </div>
+                
+                <button class="h-12 w-48 my-4 bg-black text-white rounded">View campgrounds</button>
+                 
+                <div class="flex flex-col">
+                    <p class="text-base font-medium">Partnered with:</p>
+                    <div class="flex justify-items-start mt-2">
+                        <img src="./Assets/Airbnb.svg" alt="#">
+                        <img src="./Assets/Booking.svg" alt="#">
+                        <img src="./Assets/Plum Guide.svg" alt="#"> 
+                    </div>
+                    
+                </div>
+            </div>
+        
+        </div>
+        <div class="lg:basis-1/2 lg:flex-2 lg:block hidden">
+            <img class="lg:h-full lg:w-full" src="./Assets/Hero Image.jpg" alt="#">
+        </div>
     </div>
-<div>
-<img src="./Assets/Hero Image.jpg" alt="#">
-
-</div>
-</div>
 </body>
 </html>
